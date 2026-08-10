@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Wall Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Wall Township boundary, adaptively resampled to 13.7 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 4.167733972854203,
+  "pixelSizeFeet": 13.673667889886916,
+  "adaptiveResolution": true,
+  "width": 2993,
+  "height": 5348,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 58.74,
+  "meanMeters": 24.184,
+  "stdDevMeters": 10.348,
+  "minFeet": 0,
+  "maxFeet": 192.71653543230002,
+  "webMercatorBounds": [
+    -8253380.534727,
+    4880206.790282176,
+    -8240906.506946247,
+    4902495.831569
+  ],
+  "leafletBounds": [
+    [
+      40.0981087,
+      -74.1413788
+    ],
+    [
+      40.2510795,
+      -74.0293554
+    ]
+  ],
+  "files": {
+    "demCog": "wall_township_dem_5ft_cog.tif",
+    "hillshadeCog": "wall_township_hillshade_cog.tif",
+    "hillshadePng": "wall_township_hillshade.png",
+    "boundaryGeojson": "wall_township_boundary.geojson"
+  }
+}
